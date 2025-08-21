@@ -13,8 +13,8 @@ export const USDT_CONTRACT_ADDRESS = 'TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t';
 
 // Initialize TRON Web
 export const initTronWeb = () => {
-  if (typeof window !== 'undefined' && window.tronWeb) {
-    return window.tronWeb;
+  if (typeof window !== 'undefined' && (window as any).tronWeb) {
+    return (window as any).tronWeb;
   }
   return tronWeb;
 };
@@ -41,4 +41,5 @@ export const sendUSDT = async (toAddress: string, amount: string, privateKey: st
     console.error('Error sending USDT:', error);
     throw error;
   }
+
 };
