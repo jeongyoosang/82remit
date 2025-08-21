@@ -1,2 +1,3 @@
-# 82remit
-Easy cryptocurrency remittance service
+# 82Remit
+
+MVP for phone-based USDT remittance using TRON.
