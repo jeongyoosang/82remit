@@ -1,6 +1,6 @@
-import Layout from "@/components/Layout";
+import Layout from "../components/Layout";
 import { signInWithPopup } from "firebase/auth";
-import { auth, googleProvider } from "@/lib/auth"; // repo에 auth.ts가 있으면 그 경로 유지
+import { auth, googleProvider } from "../lib/firebase";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -147,3 +147,4 @@ function Card({
     </div>
   );
 }
+
