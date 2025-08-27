@@ -67,7 +67,7 @@ export default function HomePage() {
         <div className="grid md:grid-cols-3 gap-4 md:gap-6">
           <Card
             icon={
-              <svg viewBox="0 0 24 24" className="h-6 w-6">
+              <svg viewBox="0 0 24 24" className="h-5 w-5">
                 <path
                   fill="currentColor"
                   d="M12 2a5 5 0 015 5v2h1a3 3 0 013 3v5a3 3 0 01-3 3H6a3 3 0 01-3-3v-5a3 3 0 013-3h1V7a5 5 0 015-5zm-3 7h6V7a3 3 0 10-6 0v2z"
@@ -79,7 +79,7 @@ export default function HomePage() {
           />
           <Card
             icon={
-              <svg viewBox="0 0 24 24" className="h-6 w-6">
+              <svg viewBox="0 0 24 24" className="h-5 w-5">
                 <path
                   fill="currentColor"
                   d="M2 11h8V3h4v8h8v4h-8v8h-4v-8H2z"
@@ -91,7 +91,7 @@ export default function HomePage() {
           />
           <Card
             icon={
-              <svg viewBox="0 0 24 24" className="h-6 w-6">
+              <svg viewBox="0 0 24 24" className="h-5 w-5">
                 <path
                   fill="currentColor"
                   d="M5 4h14v2H5V4zm0 4h14v12H5V8zm2 2v8h10v-8H7z"
@@ -147,4 +147,5 @@ function Card({
     </div>
   );
 }
+
 
