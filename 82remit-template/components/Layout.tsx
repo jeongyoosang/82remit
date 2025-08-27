@@ -30,7 +30,7 @@ export default function Layout({
         <header className="sticky top-0 z-20 backdrop-blur bg-white/70 border-b">
           <div className="mx-auto max-w-5xl px-4 py-3 flex items-center justify-between">
             <Link href="/" className="flex items-center gap-2">
-              <img src="/logo.svg" alt="82Remit" className="h-6 w-6" />
+                <img src="/logo.svg" alt="82Remit" className="h-4 w-4 md:h-5 md:w-5" />
               <span className="font-semibold">82Remit</span>
             </Link>
             <nav className="text-sm">
